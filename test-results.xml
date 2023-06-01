@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.2440" tests="66" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-05T13:33:57" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="QueueController" timestamp="2022-08-05T13:33:57" tests="0" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\message.controller.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="POST" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\message.controller.spec.ts" time="0.0270" failures="0">
+    <testcase name="QueueController POST Should be able to receive get request from message broker and verify dto and response" time="0.0020" classname="Should be able to receive get request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="QueueController POST Should sendMessage consume an null message and throws error" time="0.0000" classname="Should sendMessage consume an null message and throws error">
+    </testcase>
+    <testcase name="QueueController POST should sendMessage consume an invalid body and throws error" time="0.0000" classname="should sendMessage consume an invalid body and throws error">
+    </testcase>
+  </testsuite>
+  <testsuite name="QueueController" timestamp="2022-08-05T13:33:57" tests="0" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\queue.controller.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="GET" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\queue.controller.spec.ts" time="0.0160" failures="0">
+    <testcase name="QueueController GET Should be able to receive get request from message broker and verify dto and response" time="0.0010" classname="Should be able to receive get request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="QueueController GET Should findQueue consume an null message and throws error" time="0.0020" classname="Should findQueue consume an null message and throws error">
+    </testcase>
+    <testcase name="QueueController GET should findQueue consume an invalid body and throws error" time="0.0000" classname="should findQueue consume an invalid body and throws error">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\queue.controller.spec.ts" time="0.0140" failures="0">
+    <testcase name="QueueController POST Should be able to receive post request from message broker and verify dto and response" time="0.0010" classname="Should be able to receive post request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="QueueController POST Should createQueue consume an null message and throws error" time="0.0010" classname="Should createQueue consume an null message and throws error">
+    </testcase>
+    <testcase name="QueueController POST should createQueue consume an invalid body and throws error" time="0.0000" classname="should createQueue consume an invalid body and throws error">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\queue.controller.spec.ts" time="0.0110" failures="0">
+    <testcase name="QueueController DELETE Should be able to receive delete request from message broker and verify dto and response" time="0.0010" classname="Should be able to receive delete request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="QueueController DELETE Should deleteQueue consume an null body request and throws error" time="0.0000" classname="Should deleteQueue consume an null body request and throws error">
+    </testcase>
+    <testcase name="QueueController DELETE should deleteQueue consume an invalid body and throws error" time="0.0000" classname="should deleteQueue consume an invalid body and throws error">
+    </testcase>
+  </testsuite>
+  <testsuite name="SubscriptionController" timestamp="2022-08-05T13:33:57" tests="0" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\subscription.controller.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="GET" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\subscription.controller.spec.ts" time="0.0100" failures="0">
+    <testcase name="SubscriptionController GET Should be able to receive get request from message broker and verify dto and response" time="0.0000" classname="Should be able to receive get request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="SubscriptionController GET Should findSubscription consume an null message and throws error" time="0.0010" classname="Should findSubscription consume an null message and throws error">
+    </testcase>
+    <testcase name="SubscriptionController GET should findSubscription consume an invalid body and throws error" time="0.0000" classname="should findSubscription consume an invalid body and throws error">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\subscription.controller.spec.ts" time="0.0080" failures="0">
+    <testcase name="SubscriptionController POST Should be able to receive post request from message broker and verify dto and response" time="0.0010" classname="Should be able to receive post request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="SubscriptionController POST Should createSubscription consume an null message and throws error" time="0.0000" classname="Should createSubscription consume an null message and throws error">
+    </testcase>
+    <testcase name="SubscriptionController POST should createSubscription consume an invalid body and throws error" time="0.0000" classname="should createSubscription consume an invalid body and throws error">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\subscription.controller.spec.ts" time="0.0080" failures="0">
+    <testcase name="SubscriptionController DELETE Should be able to receive delete request from message broker and verify dto and response" time="0.0000" classname="Should be able to receive delete request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="SubscriptionController DELETE Should deleteSubscription consume an null body request and throws error" time="0.0000" classname="Should deleteSubscription consume an null body request and throws error">
+    </testcase>
+    <testcase name="SubscriptionController DELETE should deleteQueue consume an invalid body and throws error" time="0.0010" classname="should deleteQueue consume an invalid body and throws error">
+    </testcase>
+  </testsuite>
+  <testsuite name="TopicController" timestamp="2022-08-05T13:33:57" tests="0" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\topic.controller.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="GET" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\topic.controller.spec.ts" time="0.0080" failures="0">
+    <testcase name="TopicController GET Should be able to receive get request from message broker and verify dto and response" time="0.0000" classname="Should be able to receive get request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="TopicController GET Should findTopic consume an invalid topic name and throws error" time="0.0000" classname="Should findTopic consume an invalid topic name and throws error">
+    </testcase>
+    <testcase name="TopicController GET should findTopic fail body request" time="0.0000" classname="should findTopic fail body request">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\topic.controller.spec.ts" time="0.0060" failures="0">
+    <testcase name="TopicController POST Should be able to receive an post request from message broker and verify dto and response" time="0.0000" classname="Should be able to receive an post request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="TopicController POST Should createTopic consume an invalid name and throws error" time="0.0000" classname="Should createTopic consume an invalid name and throws error">
+    </testcase>
+    <testcase name="TopicController POST should createTopic fail body request" time="0.0000" classname="should createTopic fail body request">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\adapter\controller\topic.controller.spec.ts" time="0.0080" failures="0">
+    <testcase name="TopicController DELETE Should be able to receive an delete request from message broker and verify dto and response" time="0.0000" classname="Should be able to receive an delete request from message broker and verify dto and response">
+    </testcase>
+    <testcase name="TopicController DELETE Should deleteTopic consume an invalid name and throws error" time="0.0000" classname="Should deleteTopic consume an invalid name and throws error">
+    </testcase>
+    <testcase name="TopicController DELETE should deleteTopic fail body request" time="0.0000" classname="should deleteTopic fail body request">
+    </testcase>
+  </testsuite>
+  <testsuite name="Message Service" timestamp="2022-08-05T13:33:57" tests="0" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\message.service.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="GET" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\message.service.spec.ts" time="0.0130" failures="0">
+    <testcase name="Message Service GET should verify if sendMessage was called one time by message broker" time="0.0010" classname="should verify if sendMessage was called one time by message broker">
+    </testcase>
+    <testcase name="Message Service GET should findQueue throws an error with an  with an null queueName" time="0.0000" classname="should findQueue throws an error with an  with an null queueName">
+    </testcase>
+    <testcase name="Message Service GET should verify if createQueue throws an error with an invalid queue name" time="0.0000" classname="should verify if createQueue throws an error with an invalid queue name">
+    </testcase>
+  </testsuite>
+  <testsuite name="Queue Service" timestamp="2022-08-05T13:33:57" tests="0" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\queue.service.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="GET" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\queue.service.spec.ts" time="0.0120" failures="0">
+    <testcase name="Queue Service GET should verify if findQueue was called one time by message broker" time="0.0010" classname="should verify if findQueue was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service GET should findQueue throws an error with an  with an null queueName" time="0.0010" classname="should findQueue throws an error with an  with an null queueName">
+    </testcase>
+    <testcase name="Queue Service GET should verify if createQueue throws an error with an invalid queue name" time="0.0000" classname="should verify if createQueue throws an error with an invalid queue name">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\queue.service.spec.ts" time="0.0100" failures="0">
+    <testcase name="Queue Service POST should verify if createQueue was called one time by message broker" time="0.0010" classname="should verify if createQueue was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service POST should createQueue throws an error with an null queueName" time="0.0000" classname="should createQueue throws an error with an null queueName">
+    </testcase>
+    <testcase name="Queue Service POST should verify if createQueue throws an error with an invalid queue name" time="0.0000" classname="should verify if createQueue throws an error with an invalid queue name">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\queue.service.spec.ts" time="0.0120" failures="0">
+    <testcase name="Queue Service DELETE should verify if deleteQueue was called one time by message broker" time="0.0010" classname="should verify if deleteQueue was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service DELETE should deleteQueue throws an error with an null queueName" time="0.0010" classname="should deleteQueue throws an error with an null queueName">
+    </testcase>
+    <testcase name="Queue Service DELETE should verify if deleteQueue throws an error with an invalid queue name" time="0.0000" classname="should verify if deleteQueue throws an error with an invalid queue name">
+    </testcase>
+  </testsuite>
+  <testsuite name="Queue Service" timestamp="2022-08-05T13:33:57" tests="0" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\subscription.service.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="GET" timestamp="2022-08-05T13:33:57" tests="5" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\subscription.service.spec.ts" time="0.0120" failures="0">
+    <testcase name="Queue Service GET should verify if findSubscription was called one time by message broker" time="0.0010" classname="should verify if findSubscription was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service GET should findSubscription throws an error with an null body request" time="0.0010" classname="should findSubscription throws an error with an null body request">
+    </testcase>
+    <testcase name="Queue Service GET should findSubscription throws an error with an null subscriptionName" time="0.0000" classname="should findSubscription throws an error with an null subscriptionName">
+    </testcase>
+    <testcase name="Queue Service GET should findSubscription throws an error with an null topicName" time="0.0000" classname="should findSubscription throws an error with an null topicName">
+    </testcase>
+    <testcase name="Queue Service GET should verify if createQueue throws an error with an invalid queue name" time="0.0000" classname="should verify if createQueue throws an error with an invalid queue name">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST" timestamp="2022-08-05T13:33:57" tests="5" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\subscription.service.spec.ts" time="0.0130" failures="0">
+    <testcase name="Queue Service POST should verify if createSubscription was called one time by message broker" time="0.0000" classname="should verify if createSubscription was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service POST should createSubscription throws an error with an null body request" time="0.0000" classname="should createSubscription throws an error with an null body request">
+    </testcase>
+    <testcase name="Queue Service POST should createSubscription throws an error with an null subscriptionName" time="0.0000" classname="should createSubscription throws an error with an null subscriptionName">
+    </testcase>
+    <testcase name="Queue Service POST should createSubscription throws an error with an null topicName" time="0.0000" classname="should createSubscription throws an error with an null topicName">
+    </testcase>
+    <testcase name="Queue Service POST should verify if createSubscription throws an error with an invalid subscription" time="0.0000" classname="should verify if createSubscription throws an error with an invalid subscription">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE" timestamp="2022-08-05T13:33:57" tests="5" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\subscription.service.spec.ts" time="0.0130" failures="0">
+    <testcase name="Queue Service DELETE should verify if deleteSubscription was called one time by message broker" time="0.0010" classname="should verify if deleteSubscription was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service DELETE should deleteSubscription throws an error with an null body request" time="0.0010" classname="should deleteSubscription throws an error with an null body request">
+    </testcase>
+    <testcase name="Queue Service DELETE should deleteSubscription throws an error with an null subscriptionName" time="0.0000" classname="should deleteSubscription throws an error with an null subscriptionName">
+    </testcase>
+    <testcase name="Queue Service DELETE should deleteSubscription throws an error with an null topicName" time="0.0000" classname="should deleteSubscription throws an error with an null topicName">
+    </testcase>
+    <testcase name="Queue Service DELETE should verify if deleteSubscription throws an error with an invalid subscription" time="0.0000" classname="should verify if deleteSubscription throws an error with an invalid subscription">
+    </testcase>
+  </testsuite>
+  <testsuite name="Queue Service" timestamp="2022-08-05T13:33:57" tests="0" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\topic.service.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="GET" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\topic.service.spec.ts" time="0.0080" failures="0">
+    <testcase name="Queue Service GET should verify if findTopic was called one time by message broker" time="0.0000" classname="should verify if findTopic was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service GET should findTopic throws an error with an null topicName" time="0.0010" classname="should findTopic throws an error with an null topicName">
+    </testcase>
+    <testcase name="Queue Service GET should findTopic throws an error with an invalid topicName" time="0.0000" classname="should findTopic throws an error with an invalid topicName">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\topic.service.spec.ts" time="0.0060" failures="0">
+    <testcase name="Queue Service POST should verify if createTopic was called one time by message broker" time="0.0010" classname="should verify if createTopic was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service POST should createTopic throws an error with an null topicName" time="0.0010" classname="should createTopic throws an error with an null topicName">
+    </testcase>
+    <testcase name="Queue Service POST should createTopic throws an error with an invalid queue name" time="0.0000" classname="should createTopic throws an error with an invalid queue name">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE" timestamp="2022-08-05T13:33:57" tests="3" file="C:\Users\carolineaguiar\Documents\ProjetosCIandT\service-bus-manager\test\serviceBusManager\domain\service\topic.service.spec.ts" time="0.0100" failures="0">
+    <testcase name="Queue Service DELETE should verify if deleteTopic was called one time by message broker" time="0.0010" classname="should verify if deleteTopic was called one time by message broker">
+    </testcase>
+    <testcase name="Queue Service DELETE should deleteTopic throws an error with an null topicName" time="0.0000" classname="should deleteTopic throws an error with an null topicName">
+    </testcase>
+    <testcase name="Queue Service DELETE should deleteTopic throws an error with an invalid queue name" time="0.0000" classname="should deleteTopic throws an error with an invalid queue name">
+    </testcase>
+  </testsuite>
+</testsuites>
